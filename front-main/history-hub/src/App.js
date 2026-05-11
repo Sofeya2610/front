@@ -89,7 +89,7 @@ function App() {
 
                 <footer>
                     <div className="container footer-content">
-                        <p>&copy; 2026 MyHistoryZNOHub. Vladyslav Pysmak!</p>
+                        <p>&copy; 2026 MyHistoryZNOHub.</p>
                     </div>
                 </footer>
             </div>
