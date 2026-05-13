@@ -9,7 +9,10 @@ const app = express();
 const prisma = new PrismaClient();
 
 app.use(cors({
-    origin: 'https://front-o43frp6j3-sofi-slabnulp-projects.vercel.app'
+  origin: [
+    'https://front-pbmq.vercel.app',
+    'https://front-pbmq-ig3flywre-sofi-slabnulp-projects.vercel.app'
+  ]
 })); // Дозволяємо запити з фронтенду [cite: 106, 302]
 app.use(express.json());
 
