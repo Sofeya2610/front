@@ -8,7 +8,7 @@ function Auth({ user, setUser }) {
     const [isRegistering, setIsRegistering] = useState(false);
 
     // Адреса твого локального сервера
-    const API_URL = 'https://server-vxjd.onrender.com';
+    const API_URL = 'https://server-1-yyut.onrender.com';
 
     const handleAuth = async (e) => {
         e.preventDefault();

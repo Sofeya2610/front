@@ -7,7 +7,7 @@ function Quiz() {
     const [loading, setLoading] = useState(true);
     
     // Адреса твого бекенду (зміни на URL від Render після деплою)
-    const API_URL = 'https://server-vw7d.onrender.com/api';
+    const API_URL = 'https://server-1-yyut.onrender.com';
 
     useEffect(() => {
         const fetchData = async () => {
